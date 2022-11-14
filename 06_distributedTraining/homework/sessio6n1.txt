@@ -1,0 +1,84 @@
+
+(2022-07-01//base) mbabeykoon@thetagpu06:~/ai-science-training-series/06_distributedTraining/homework$ mpirun -np 1 python tensorflow2_mnist_hvd.py
+# I am rank 0 of 1
+Epoch - 0, step #000000/000234  Loss: 2.298197
+Epoch - 0, step #000100/000234  Loss: 0.130936
+Epoch - 0, step #000200/000234  Loss: 0.156924
+E[0], train Loss: 0.305513, training Acc: 0.909, val loss: 0.055, val Acc: 0.982         Time: 6.954 seconds
+Validation accuracy after epoch 0: 0.9824.
+Epoch - 1, step #000000/000234  Loss: 0.111113
+Epoch - 1, step #000100/000234  Loss: 0.129666
+Epoch - 1, step #000200/000234  Loss: 0.082847
+E[1], train Loss: 0.103124, training Acc: 0.969, val loss: 0.044, val Acc: 0.986         Time: 1.729 seconds
+Validation accuracy after epoch 1: 0.9863.
+Epoch - 2, step #000000/000234  Loss: 0.060645
+Epoch - 2, step #000100/000234  Loss: 0.080596
+Epoch - 2, step #000200/000234  Loss: 0.064925
+E[2], train Loss: 0.091540, training Acc: 0.973, val loss: 0.039, val Acc: 0.988         Time: 1.744 seconds
+Validation accuracy after epoch 2: 0.9878.
+Epoch - 3, step #000000/000234  Loss: 0.048229
+Epoch - 3, step #000100/000234  Loss: 0.044548
+Epoch - 3, step #000200/000234  Loss: 0.054684
+E[3], train Loss: 0.079421, training Acc: 0.976, val loss: 0.037, val Acc: 0.988         Time: 1.772 seconds
+Validation accuracy after epoch 3: 0.9883.
+Epoch - 4, step #000000/000234  Loss: 0.106380
+Epoch - 4, step #000100/000234  Loss: 0.084461
+Epoch - 4, step #000200/000234  Loss: 0.066873
+E[4], train Loss: 0.073784, training Acc: 0.977, val loss: 0.046, val Acc: 0.988         Time: 1.722 seconds
+Validation accuracy after epoch 4: 0.9876.
+Epoch - 5, step #000000/000234  Loss: 0.030393
+Epoch - 5, step #000100/000234  Loss: 0.020616
+Epoch - 5, step #000200/000234  Loss: 0.034031
+E[5], train Loss: 0.073555, training Acc: 0.978, val loss: 0.041, val Acc: 0.988         Time: 1.721 seconds
+Validation accuracy after epoch 5: 0.9885.
+Epoch - 6, step #000000/000234  Loss: 0.035829
+Epoch - 6, step #000100/000234  Loss: 0.113837
+Epoch - 6, step #000200/000234  Loss: 0.076029
+E[6], train Loss: 0.067434, training Acc: 0.979, val loss: 0.037, val Acc: 0.989         Time: 1.729 seconds
+Validation accuracy after epoch 6: 0.9894.
+Epoch - 7, step #000000/000234  Loss: 0.058568
+Epoch - 7, step #000100/000234  Loss: 0.049611
+Epoch - 7, step #000200/000234  Loss: 0.083394
+E[7], train Loss: 0.067506, training Acc: 0.980, val loss: 0.038, val Acc: 0.989         Time: 1.700 seconds
+Validation accuracy after epoch 7: 0.9891.
+Epoch - 8, step #000000/000234  Loss: 0.105958
+Epoch - 8, step #000100/000234  Loss: 0.026782
+Epoch - 8, step #000200/000234  Loss: 0.068953
+E[8], train Loss: 0.062936, training Acc: 0.980, val loss: 0.031, val Acc: 0.990         Time: 1.718 seconds
+Validation accuracy after epoch 8: 0.9901.
+Epoch - 9, step #000000/000234  Loss: 0.080593
+Epoch - 9, step #000100/000234  Loss: 0.097133
+Epoch - 9, step #000200/000234  Loss: 0.072296
+E[9], train Loss: 0.063999, training Acc: 0.981, val loss: 0.037, val Acc: 0.989         Time: 1.703 seconds
+Validation accuracy after epoch 9: 0.9886.
+Epoch - 10, step #000000/000234 Loss: 0.077285
+Epoch - 10, step #000100/000234 Loss: 0.046422
+Epoch - 10, step #000200/000234 Loss: 0.014570
+E[10], train Loss: 0.062168, training Acc: 0.981, val loss: 0.035, val Acc: 0.989        Time: 1.730 seconds
+Validation accuracy after epoch 10: 0.9895.
+Epoch - 11, step #000000/000234 Loss: 0.040367
+Epoch - 11, step #000100/000234 Loss: 0.037411
+Epoch - 11, step #000200/000234 Loss: 0.061023
+E[11], train Loss: 0.054715, training Acc: 0.983, val loss: 0.035, val Acc: 0.989        Time: 1.734 seconds
+Validation accuracy after epoch 11: 0.9895.
+Epoch - 12, step #000000/000234 Loss: 0.028340
+Epoch - 12, step #000100/000234 Loss: 0.056550
+Epoch - 12, step #000200/000234 Loss: 0.084277
+E[12], train Loss: 0.056152, training Acc: 0.983, val loss: 0.032, val Acc: 0.991        Time: 1.720 seconds
+Validation accuracy after epoch 12: 0.9908.
+Epoch - 13, step #000000/000234 Loss: 0.053219
+Epoch - 13, step #000100/000234 Loss: 0.070301
+Epoch - 13, step #000200/000234 Loss: 0.055012
+E[13], train Loss: 0.057329, training Acc: 0.982, val loss: 0.032, val Acc: 0.992        Time: 1.727 seconds
+Validation accuracy after epoch 13: 0.9917.
+Epoch - 14, step #000000/000234 Loss: 0.027631
+Epoch - 14, step #000100/000234 Loss: 0.037920
+Epoch - 14, step #000200/000234 Loss: 0.070817
+E[14], train Loss: 0.059741, training Acc: 0.982, val loss: 0.037, val Acc: 0.990        Time: 1.725 seconds
+Validation accuracy after epoch 14: 0.9899.
+Epoch - 15, step #000000/000234 Loss: 0.037576
+Epoch - 15, step #000100/000234 Loss: 0.020865
+Epoch - 15, step #000200/000234 Loss: 0.110034
+E[15], train Loss: 0.058582, training Acc: 0.982, val loss: 0.034, val Acc: 0.990        Time: 1.744 seconds
+Validation accuracy after epoch 15: 0.9905.
+Total training time: 32.92371153831482 seconds
